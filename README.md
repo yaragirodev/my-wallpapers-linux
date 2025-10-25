@@ -1,6 +1,14 @@
 # my-wallpapers-linux
 MyWallpapers Linux client written on Python.
 
+# Installing
+
+```bash
+pip install requests
+```
+```bash
+python main.py
+```
 # Supports:
 KDE, GNOME
 (More DEs soon...)
