@@ -42,7 +42,7 @@ def setbg(path):
             ], check=False)
 
             print("sucess! (GNOME)")
-            print(f"Wallpaper path - {linkIMG}")
+            print(f"Wallpaper url - {linkIMG}")
 
         elif "kde" in desktop:
             # KDE Plasma
@@ -61,7 +61,7 @@ def setbg(path):
             ], check=True)
 
             print("sucess! (KDE Plasma)")
-            print(f"Wallpaper path - {linkIMG}")
+            print(f"Wallpaper url - {linkIMG}")
 
         else:
             print("ERROR: NO DE FOUND! (THIS UTILITY SUPPORTS: KDE, GNOME)")
